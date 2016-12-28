@@ -1,0 +1,9 @@
+strict graph teste_dire{
+
+	"glib-networking-services" -- "2" [peso=10]
+	"glib-networking-services" -- "3" [peso=2]
+	"glib-networking-services" -- "4" [peso=5]
+	"2" -- "3" [peso=7]
+	"2" -- "4" [peso=9]
+	"3" -- "4" [peso=1]
+}
